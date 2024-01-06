@@ -457,7 +457,7 @@ a.linkbutton:active {
 /* banner */
 
 .product-banner {
-  background-image: linear-gradient(180deg, #02162A 0%, #00001e 100%);
+  background-image: linear-gradient(80deg, #02162A 0%, #00001e 100%);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -541,12 +541,12 @@ a.second-link:hover {
 }
 
 .banner-pic {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   display: flex;
   justify-content: center;
   height: 400px;
-  position: absolute;
-  bottom: 100px;
+  /* position: absolute; */
+  /* bottom: 100px; */
 }
 
 .banner-pic-img {
