@@ -1,3 +1,12 @@
+var autoSwitchLanguage = () => {
+  document.querySelector(`[lang="${zh-CN}"]`).classList.add('hide');
+  document.querySelector(`[lang="${en}"]`).classList.remove('hide');
+  if (window.location.pathname == '/zh-cn/index.html') {
+    document.querySelector(`[lang="${zh-CN}"]`).classList.remove('hide');
+    document.querySelector(`[lang="${en}"]`).classList.add('hide');
+  }
+}
+
 // 添加视差效果
 var image = document.getElementsByClassName('banner-pic-img');
 new simpleParallax(image, {
